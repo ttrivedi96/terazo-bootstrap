@@ -1,0 +1,61 @@
+.bg {
+  position: absolute;
+  width: 100%;
+  background-image: url("./img_bg2.png");
+  height: 700px;
+  margin-top: 2.5%;
+  top: 1000px;
+}
+.imgPattern1 {
+  position: relative;
+  top: 170px;
+  left: 0;
+  z-index: 1;
+}
+
+.img_product {
+  width: 770px;
+  height: 578px;
+  position: relative;
+  top: -20;
+  z-index: 3;
+  margin-left: 300px;
+  margin-right: 250px;
+  object-fit: contain;
+  /* margin: 116px 335px 300px; */
+  overflow: hidden;
+}
+
+.imgPattern2 {
+  position: relative;
+  top: -280px;
+  right: -750px;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1920px) {
+  .img_product {
+    position: relative;
+    width: 770px;
+    height: 578px;
+    top: 810;
+    z-index: 2;
+    margin-top: 18%;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+  }
+  .imgPattern1 {
+    position: relative;
+    top: 196px;
+    left: 270px;
+    z-index: 1;
+  }
+
+  .imgPattern2 {
+    position: relative;
+    top: -250px;
+    right: -950px;
+    z-index: 1;
+  }
+}
